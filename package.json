@@ -5,16 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "installfe": "cd backend && npm i && cd ..",
-    "installbe": "cd frontend && npm i && cd ..",
-    "intall_things": "npm run installfe && npm run installbe",
+    "installfe":"cd backend && npm i && cd ..",
+    "installbe":"cd frontend && npm i && cd ..",
+    "intall_things":"npm run installfe && npm run installbe",
     "frontend": "cd frontend && npm start && cd ..",
     "server": "cd backend && npm start && cd .."
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "json-server": "^1.0.0-alpha.23"
-  }
+  "license": "ISC"
 }

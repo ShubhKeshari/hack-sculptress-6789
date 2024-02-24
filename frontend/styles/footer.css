@@ -1,0 +1,57 @@
+  /* Footer CSS starts here */
+  #common_footer {
+    background-color: #000000;
+    padding: 2% 4% 4% 4%;
+    display: flex;
+    flex-direction: column;
+    font-family: sf pro text, -apple-system, BlinkMacSystemFont, Roboto,
+      segoe ui, Helvetica, Arial, sans-serif, apple color emoji,
+      segoe ui emoji, segoe ui symbol;
+  }
+  #common_footer a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1.5%;
+  }
+  #common_footer a:hover {
+    text-decoration: underline;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-bottom: 80px;
+  }
+  .FooterItems {
+    display: flex;
+    flex-direction: row;
+  }
+  .FooterItems > div {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+  }
+
+  .language > button {
+    background-color: inherit;
+    border: 1px solid #fff;
+    color: #fff;
+    float: right;
+    font-size: 18px;
+    padding: 2% 5%;
+    margin-top: 0;
+    text-align: center;
+  }
+  .language > button:hover {
+    background-color: rgb(71, 70, 70);
+  }
+  .footOfFooter img {
+    float: left;
+    width: 100px;
+  }
+  .footOfFooter span {
+    float: right;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 65px;
+  }
+  /* Footer CSS ends here */

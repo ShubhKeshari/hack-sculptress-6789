@@ -2,7 +2,7 @@ let login = document.getElementById("login");
 
 login.addEventListener("click", (e)=> {
     e.preventDefault();
-    window.location.href = "../login/login.html";
+    window.location.href = "login.html";
 });
 
 

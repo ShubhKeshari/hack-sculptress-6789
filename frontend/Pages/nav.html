@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NavBar</title>
+    <link rel="stylesheet" href="../styles/nav.css" />
+  </head>
+  <body>
+    <div id="Main_header">
+      <div id="top-bar">
+        <!--Main logo of website-->
+        <div class="logo topBtn">
+          <img
+            src="../images/LearnifyLogo.png"
+            alt="Learnify"
+            title="Learnify logo"
+            width="10px"
+          />
+        </div>
+        <!--Main menu of website-->
+        <div class="main_menu">
+          <ul class="categories topBtn">
+            <li class="sub_category">
+              Categories
+              <ul class="categories sub-menu">
+                <li class="sub_category">
+                  <a
+                    href="pages/categories.html"
+                    style="color: rgb(0, 0, 0); text-decoration: none"
+                    >Web Development</a
+                  >
+                </li>
+                <li class="sub_category">
+                  <a
+                    href="pages/categories.html"
+                    style="color: rgb(0, 0, 0); text-decoration: none"
+                    >Data Science</a
+                  >
+                </li>
+                <li class="sub_category">
+                  <a
+                    href="pages/categories.html"
+                    style="color: rgb(0, 0, 0); text-decoration: none"
+                    >IT &#38; Software</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <!--search bar of website-->
+        <div class="search-box">
+          <form class="search-container">
+            <input
+              type="text"
+              id="search_bar"
+              placeholder="Search for anything"
+            />
+          </form>
+        </div>
+
+        <!-- Learnify Business -->
+        <div class="nav_business topBtn">Learnify Business</div>
+
+        <!--Become An instructor button-->
+        <div class="nav_business topBtn">Teach on Learnify</div>
+
+        <!--Shopping cart button-->
+        <div class="cart_btn topBtn" onclick="cartPage()">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+
+        <!-- sign Up  -->
+        <div class="signup_btn topBtn" onclick="signupPage()">Sign up</div>
+
+        <!-- log in  -->
+        <div class="login_btn topBtn" onclick="loginPage()">Log in</div>
+      </div>
+    </div>
+  </body>
+</html>
