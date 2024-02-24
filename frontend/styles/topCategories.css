@@ -1,0 +1,214 @@
+ /* Mayur css */
+      /* part-1  */
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      .part-1-m {
+        margin-left: 30px;
+      }
+      .item-1-m {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+      }
+      .part-1-m > h4 {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 30px;
+        margin-top: 100px;
+      }
+      #item-1-m-id > div > img:hover {
+        animation: forwards;
+        animation-name: scaleup;
+        animation-timing-function: ease-out;
+        animation-duration: 0.5s;
+      }
+      .item-1-m > div > p {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 19px;
+        font-variation-settings: "wdth" 100;
+        margin: 20px;
+      }
+
+      @keyframes scaleup {
+        0% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(1.05);
+        }
+      }
+
+      /* part-3  */
+      .part-3-m {
+        margin-top: 50px;
+        padding-left: 10%;
+        display: flex;
+        justify-content: center;
+      }
+      .item-3-m > div > img {
+        width: 40%;
+      }
+      #item-3-m-id > img {
+        width: 70%;
+      }
+      .item-3-m > h1 {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings: "wdth" 100;
+        margin-top: 30px;
+      }
+      .item-3-m > div > ul > li {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 19px;
+        line-height: 27px;
+        font-variation-settings: "wdth" 100;
+        padding: 10px;
+      }
+      .buttons-m {
+        margin-top: 10px;
+      }
+      #btn-2-m {
+        padding: 10px;
+        color: white;
+        background-color: black;
+      }
+      #btn-3-m {
+        padding: 10px;
+        color: black;
+        background-color: white;
+      }
+      /* part-4  */
+      .part-4-m {
+        margin-top: 50px;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(247, 249, 250);
+        gap: 100px;
+      }
+
+      .inner-m-1 {
+        width: 800px;
+        height: 300px;
+        border: 1px solid black;
+        display: flex;
+      }
+
+      .cname-m-1 {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        width: 400px;
+      }
+
+      .cname-m-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 100px;
+      }
+
+      .cname-m-1 > img {
+        width: 20px;
+      }
+
+      .cname-m-1 > p {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 22px;
+        font-variation-settings: "wdth" 100;
+        margin-top: 10px;
+      }
+
+      .cname-m-1 > div {
+        margin-top: 50px;
+      }
+
+      .cname-m-2 > div {
+        width: 128px;
+        margin-bottom: 20px;
+      }
+
+      .cname-m-2 > div > img {
+        border-radius: 50%;
+      }
+
+      /* part-5  */
+
+      .part-5-m {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+      }
+
+      .last-1-m {
+        width: 900px;
+        height: 320px;
+        display: flex;
+        align-items: center;
+        margin-left: -20px;
+      }
+      .item-m-4 {
+        margin-left: 125px;
+      }
+
+      .item-m-4 > h4 {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 32px;
+        line-height: 40px;
+        font-variation-settings: "wdth" 100;
+      }
+
+      .item-m-4 > p {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 19px;
+        line-height: 27px;
+        font-variation-settings: "wdth" 100;
+        margin-top: 20px;
+      }
+
+      #btn-4-m {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 19px;
+        font-variation-settings: "wdth" 100;
+        color: white;
+        border: none;
+        background-color: black;
+        padding: 15px;
+        margin-top: 20px;
+      }
