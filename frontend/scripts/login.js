@@ -35,7 +35,7 @@ async function login() {
         +localStorage.setItem("userId", JSON.stringify(data.user.id));
         fetchData();
     } catch (error) {
-        console.log(error);
+        console.log("this is an error", error);
     }
 }
 
@@ -57,33 +57,3 @@ async function fetchData() {
         console.log(error);
     }
 }
-
-
-
-
-
-
-
-
-
-// loginForm.addEventListener("submit", (e) => {
-//     e.preventDefault();
-
-//     fetch("http://localhost:4000/users", {
-//         method : "GET",
-//         headers : {
-//             "Content-type" : "application/json"
-//         },
-//         body : JSON.stringify({email, password})
-//     })
-//     .then(response => {
-//         return response.json();
-//     })
-//     .then(data => {
-//         if (data.authenticated) window.location.href = "../pages/index.html";
-//         else alert('Invalid username or password');
-//     })
-//     .catch(error => {
-//         console.error('There was a problem with the fetch operation:', error);
-//     });
-// })
