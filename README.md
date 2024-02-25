@@ -11,12 +11,12 @@ Team members :-
 ## Learnify(Udemy-clone)
 --> About
 Lernify, Inc. is an American massive open online course (MOOC) provider aimed at professional adults and students. It was founded in May 2010 by Eren Bali, Gagan Biyani, and Oktay Caglar.
-# build using:
+## build using:
 HTML5
 CSS
 JavaScript
 
-# To start the project use commands: (After cloning the project)
+## To start the project use commands: (After cloning the project)
 1. npm run frontend
 2. npm run server
 
