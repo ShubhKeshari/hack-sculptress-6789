@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../styles/nav.css">
+  <link rel="stylesheet" href="../styles/footer.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/999e67b48c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="Main_header">
+    <div id="top-bar">
+      <!--Main logo of website-->
+      <div class="logo topBtn" onclick="logolink()">
+        <img src="../images/LearnifyLogo.png" alt="Learnify" title="Learnify logo" width="10px" />
+      </div>
+      <!--Main menu of website-->
+      <div class="main_menu">
+        <ul class="categories topBtn">
+          <li class="sub_category">
+            Categories
+            <ul class="categories sub-menu">
+              <li class="sub_category">
+                <a href="pages/categories.html" style="color: rgb(0, 0, 0); text-decoration: none">Web Development</a>
+              </li>
+              <li class="sub_category">
+                <a href="pages/categories.html" style="color: rgb(0, 0, 0); text-decoration: none">Data Science</a>
+              </li>
+              <li class="sub_category">
+                <a href="pages/categories.html" style="color: rgb(0, 0, 0); text-decoration: none">IT &#38; Software</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!--search bar of website-->
+      <div class="search-box">
+        <form class="search-container">
+          <input type="text" id="search_bar" placeholder="Search for anything" />
+        </form>
+      </div>
+
+      <!-- Learnify Business -->
+      <div class="nav_business topBtn">Learnify Business</div>
+
+      <!--Become An instructor button-->
+      <div class="nav_business topBtn">Teach on Learnify</div>
+
+      <!--Shopping cart button-->
+      <div class="cart_btn topBtn" onclick="cartPage()">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+
+      <!-- sign Up  -->
+      <div class="signup_btn topBtn" onclick="signupPage()">Sign up</div>
+
+      <!-- log in  -->
+      <div class="login_btn topBtn" onclick="loginPage()">Log in</div>
+    </div>
+  </div>
+  <!-- Nav bar ends here -->
+
+  <section style="background-color: #eee;">
+    <div class="container py-5">
+      <div class="row" id="Courses">
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- footer start -->
+
+  <div id="common_footer">
+    <div class="grid">
+      <div class="FooterItems">
+        <div>
+          <a href="">Learnify Business</a>
+          <a href="">Teach On Learnify</a>
+          <a href="">Get the app</a>
+          <a href="">About us</a>
+          <a href="">Contact us</a>
+        </div>
+        <div>
+          <a href="">Careers</a>
+          <a href="">Blog</a>
+          <a href="">Help and Support</a>
+          <a href="">Affiliate</a>
+        </div>
+        <div>
+          <a href="">Terms</a>
+          <a href="">Privacy policy</a>
+          <a href="">Sitemap</a>
+        </div>
+      </div>
+      <div class="language">
+        <button>English</button>
+      </div>
+    </div>
+    <div class="footOfFooter">
+      <div onclick="logolink()">
+        <img class="LernifyFooterLogo" src="../images/LearnifyFooterLogo.png" alt="Learnify" />
+      </div>
+      <span>&copy; 2024 Learnify, Inc.</span>
+    </div>
+  </div>
+
+  <!-- footer end -->
+
+
+</body>
+<script src="../scripts/categories.js"></script>
+
+</html>
