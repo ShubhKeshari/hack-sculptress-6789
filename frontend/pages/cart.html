@@ -28,7 +28,7 @@ cross00origin="anonymous"
     <div id="Main_header">
         <div id="top-bar">
           <!--Main logo of website-->
-          <div class="logo topBtn">
+          <div class="logo topBtn" onclick="logolink()">
             <img
               src="../images/LearnifyLogo.png"
               alt="Learnify"
@@ -44,21 +44,24 @@ cross00origin="anonymous"
                 <ul class="categories sub-menu">
                   <li class="sub_category">
                     <a
-                      href="pages/categories.html"
+                      href=""
+                      onclick="categoryPage()"
                       style="color: rgb(0, 0, 0); text-decoration: none"
                       >Web Development</a
                     >
                   </li>
                   <li class="sub_category">
                     <a
-                      href="pages/categories.html"
+                      href=""
+                      onclick="categoryPage()"
                       style="color: rgb(0, 0, 0); text-decoration: none"
                       >Data Science</a
                     >
                   </li>
                   <li class="sub_category">
                     <a
-                      href="pages/categories.html"
+                      href=""
+                      onclick="categoryPage()"
                       style="color: rgb(0, 0, 0); text-decoration: none"
                       >IT &#38; Software</a
                     >
@@ -232,7 +235,7 @@ cross00origin="anonymous"
       </div>
     </div>
     <div class="footOfFooter">
-      <div>
+      <div onclick="logolink()">
         <img
           class="LernifyFooterLogo"
           src="../images/LearnifyFooterLogo.png"

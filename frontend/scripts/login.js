@@ -19,6 +19,9 @@ function loginPage() {
 function signupPage() {
   window.location.href = `${baseURL}/pages/signup.html`;
 }
+function categoryPage(){
+  window.location.href = `${baseURL}/pages/categories.html`;
+}
 
 // Login Page JS starts here
 
