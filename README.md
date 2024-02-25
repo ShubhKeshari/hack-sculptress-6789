@@ -13,8 +13,8 @@ Lernify, Inc. is an American massive open online course (MOOC) provider aimed at
 
 
 ## build using:
-HTML5
-CSS
+HTML5 |
+CSS |
 JavaScript
 
 ## To start the project use commands: (After cloning the project)
