@@ -9,8 +9,9 @@ Team members :-
 5. Praveen Kumar
 
 ## Learnify(Udemy-clone)
---> About
 Lernify, Inc. is an American massive open online course (MOOC) provider aimed at professional adults and students. It was founded in May 2010 by Eren Bali, Gagan Biyani, and Oktay Caglar.
+
+
 ## build using:
 HTML5
 CSS
