@@ -47,6 +47,7 @@
     padding-top: 15px;
     text-align: center;
     background-color: #ffffff;
+    margin-left:-25px;
   }
   .main_menu .categories .sub_category .categories {
     display: none;
