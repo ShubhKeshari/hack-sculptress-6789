@@ -58,6 +58,7 @@ body {
     color: #fff;
     font-size: 40px;
     font-weight: 900;
+    /* font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;; */
     padding: 4% 5%;
     margin: 0%;
 }
@@ -86,6 +87,7 @@ body {
 
 .maxWidth-daya {
     min-width: 100%;
+    
 }
 
 .icon-daya {
@@ -212,4 +214,10 @@ body {
 
 #checkout {
     padding: 7%;
+   background-color:  #a435f0;
+   color: #E5E8E8;
+}
+#applyCoupon{
+    background-color:  #a435f0;
+    color: #fff;
 }
