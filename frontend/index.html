@@ -13,14 +13,14 @@
       src="https://kit.fontawesome.com/999e67b48c.js"
       crossorigin="anonymous"
     ></script>
-    <style></style>
+    <script src="./scripts/page.js"></script>
   </head>
   <body>
     <!-- Nav Bar starts here -->
     <div id="Main_header">
       <div id="top-bar">
         <!--Main logo of website-->
-        <div class="logo topBtn">
+        <div class="logo topBtn" onclick="logolink()">
           <img
             src="./images/LearnifyLogo.png"
             alt="Learnify"
@@ -88,7 +88,7 @@
         <div class="login_btn topBtn" onclick="loginPage()">Log in</div>
       </div>
     </div>
-<!-- Nav bar ends here -->
+    <!-- Nav bar ends here -->
     <!-- hero section starts -->
     <section class="hero">
       <div class="hero-content">
@@ -512,7 +512,7 @@
       </div>
     </div>
 
-<!-- footer start -->
+    <!-- footer start -->
 
     <div id="common_footer">
       <div class="grid">
@@ -541,17 +541,18 @@
         </div>
       </div>
       <div class="footOfFooter">
-        <div>
+        <div onclick="logolink()">
           <img
             class="LernifyFooterLogo"
             src="./images/LearnifyFooterLogo.png"
             alt="Learnify"
+            
           />
         </div>
         <span>&copy; 2024 Learnify, Inc.</span>
       </div>
     </div>
 
-<!-- footer end -->
+    <!-- footer end -->
   </body>
 </html>
