@@ -1,0 +1,30 @@
+.signup-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    width: 40%;
+}
+
+.email-input, .pass-input, .signup-btn, .name-input{
+    width: 100%;
+    font-size: 18px;
+}
+
+.line{
+    width: 100%;
+    border: 0.1px solid gray;
+}
+
+#signup, .reset, #login {
+    color:#5624d0;
+    font-weight: bold;
+}
+
+#signup:hover, .reset:hover, #login:hover{
+    cursor: pointer;
+    color: #4907f1;
+}
