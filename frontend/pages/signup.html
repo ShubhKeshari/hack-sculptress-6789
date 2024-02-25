@@ -12,6 +12,7 @@
       src="https://kit.fontawesome.com/b4e92aef63.js"
       crossorigin="anonymous"
     ></script>
+    <script src="../scripts/page.js"></script>
     <link rel="stylesheet" href="../styles/signup.css" />
     <link rel="stylesheet" href="../styles/nav.css" />
     <link rel="stylesheet" href="../styles/footer.css" />
@@ -21,7 +22,7 @@
     <div id="Main_header">
       <div id="top-bar">
         <!--Main logo of website-->
-        <div class="logo topBtn">
+        <div class="logo topBtn" onclick="logolink()">
           <img
             src="../images/LearnifyLogo.png"
             alt="Learnify"
@@ -155,47 +156,47 @@
 
     <!-- signup part end -->
 
-        <!-- footer start -->
+    <!-- footer start -->
 
-        <div id="common_footer">
-          <div class="grid">
-            <div class="FooterItems">
-              <div>
-                <a href="">Learnify Business</a>
-                <a href="">Teach On Learnify</a>
-                <a href="">Get the app</a>
-                <a href="">About us</a>
-                <a href="">Contact us</a>
-              </div>
-              <div>
-                <a href="">Careers</a>
-                <a href="">Blog</a>
-                <a href="">Help and Support</a>
-                <a href="">Affiliate</a>
-              </div>
-              <div>
-                <a href="">Terms</a>
-                <a href="">Privacy policy</a>
-                <a href="">Sitemap</a>
-              </div>
-            </div>
-            <div class="language">
-              <button>English</button>
-            </div>
+    <div id="common_footer">
+      <div class="grid">
+        <div class="FooterItems">
+          <div>
+            <a href="">Learnify Business</a>
+            <a href="">Teach On Learnify</a>
+            <a href="">Get the app</a>
+            <a href="">About us</a>
+            <a href="">Contact us</a>
           </div>
-          <div class="footOfFooter">
-            <div>
-              <img
-                class="LernifyFooterLogo"
-                src="../images/LearnifyFooterLogo.png"
-                alt="Learnify"
-              />
-            </div>
-            <span>&copy; 2024 Learnify, Inc.</span>
+          <div>
+            <a href="">Careers</a>
+            <a href="">Blog</a>
+            <a href="">Help and Support</a>
+            <a href="">Affiliate</a>
+          </div>
+          <div>
+            <a href="">Terms</a>
+            <a href="">Privacy policy</a>
+            <a href="">Sitemap</a>
           </div>
         </div>
-    
-        <!-- footer end -->
+        <div class="language">
+          <button>English</button>
+        </div>
+      </div>
+      <div class="footOfFooter">
+        <div onclick="logolink()">
+          <img
+            class="LernifyFooterLogo"
+            src="../images/LearnifyFooterLogo.png"
+            alt="Learnify"
+          />
+        </div>
+        <span>&copy; 2024 Learnify, Inc.</span>
+      </div>
+    </div>
+
+    <!-- footer end -->
     <script src="../scripts/signup.js"></script>
   </body>
 </html>
