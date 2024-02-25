@@ -25,7 +25,7 @@ function categoryPage() {
 // Function to fetch data from JSON Server
 async function fetchData() {
   try {
-    const response = await fetch(`${baseURL}/cart`);
+    const response = await fetch(`https://hack-sculptress-6789.onrender.com/cart`);
     if (!response.ok) {
       throw new Error("Network response was not ok.");
     }
@@ -38,7 +38,7 @@ async function fetchData() {
 }
 let totalPrice = 0;
 function deletecourse(item) {
-  fetch(`http://localhost:3000/cart/${item}`, {
+  fetch(`https://hack-sculptress-6789.onrender.com/cart/${item}`, {
     method: "DELETE",
     headers: {
       "Content-Type": "application/json",

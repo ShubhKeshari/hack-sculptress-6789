@@ -24,7 +24,7 @@ function categoryPage(){
 }
 async function fetchData() {
     try {
-      const response = await fetch('http://localhost:3000/cart');
+      const response = await fetch('https://hack-sculptress-6789.onrender.com/cart');
       if (!response.ok) {
         throw new Error('Network response was not ok.');
       }
