@@ -20,7 +20,7 @@ JavaScript
 1. npm run frontend
 2. npm run server
 
-## Deployesd Link of Learnify Website    https://hack-sculptress-6789-1.onrender.com/
+## Deployed Link of Learnify Website    https://hack-sculptress-6789-1.onrender.com/
 
 
 ## some screenshorts from project
