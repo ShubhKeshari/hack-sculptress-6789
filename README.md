@@ -11,7 +11,6 @@ Team members :-
 ## Learnify(Udemy-clone)
  -- The primary objective could be to create a platform for online learning, similar to Udemy, where users can access a wide range of courses on various subjects.
 
-
 ## build using:
 HTML5 |
 CSS | bootstap | 
@@ -20,6 +19,9 @@ JavaScript
 ## To start the project use commands: (After cloning the project)
 1. npm run frontend
 2. npm run server
+
+## Deployesd Link of Learnify Website    https://hack-sculptress-6789-1.onrender.com/
+
 
 ## some screenshorts from project
 -- Landing Page
