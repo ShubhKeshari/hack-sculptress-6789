@@ -9,18 +9,38 @@ Team members :-
 5. Praveen Kumar
 
 ## Learnify(Udemy-clone)
- -- The primary objective could be to create a platform for online learning, similar to Udemy, where users can access a wide range of courses on various subjects.
+
+ 1. User registration and authentication: Users can create accounts, log in, and manage their profiles.
+ 2. Course discovery: Students can browse through available courses, search for specific topics, and enroll in courses of interest.
+ 3. Payment processing: The platform handles transactions for course purchases, with options for various payment methods.
+
+
+## Deployed Link of Learnify Website   
+--> Render.com :- https://hack-sculptress-6789-1.onrender.com/
+
 
 ## build using:
 HTML5 |
 CSS | bootstap | 
 JavaScript 
 
-## To start the project use commands: (After cloning the project)
-1. npm run frontend
-2. npm run server
+## Directory Structure
+hack-sculptress-6789/
+├─ backend/
+├─ frontend/
+│  ├─ ...
 
-## Deployed Link of Learnify Website    https://hack-sculptress-6789-1.onrender.com/
+## Features
+
+1. User Registration and Authentication
+2. Course Discover
+3. Payment Processing
+
+
+## Installation & Getting started
+1. npm run install_things
+2. npm run frontend
+3. npm run server
 
 
 ## some screenshorts from project
