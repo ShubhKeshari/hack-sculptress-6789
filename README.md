@@ -28,18 +28,25 @@ JavaScript
 
 ![landing page](https://github.com/ShubhKeshari/hack-sculptress-6789/assets/113028201/1b60d794-34f2-478f-a034-c95141050aa3)
 
+<hr>
+
 -- Login Page
 
 ![login page](https://github.com/ShubhKeshari/hack-sculptress-6789/assets/113028201/46cecdf5-d1c0-4fe1-a267-9d6351845b82)
+
+<hr>
 
 -- Category page
 
 ![capture_20240226084133399](https://github.com/ShubhKeshari/hack-sculptress-6789/assets/113028201/77087186-ea5a-4ee2-8ea5-72191a6e51dc)
 
+<hr>
+
 -- Cart Page
 
 ![capture_20240226084156527](https://github.com/ShubhKeshari/hack-sculptress-6789/assets/113028201/3776372d-9998-43e2-b456-f87935e06c75)
 
+<hr>
 
 -- checkout page
 
