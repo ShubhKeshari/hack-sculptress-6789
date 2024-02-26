@@ -4,26 +4,43 @@ Team members :-
 
 1. Shubham
 2. Dayasagar Dalai
-3. Mayur
+3. Mayur Awari
 4. Ashish Jadhav
 5. Praveen Kumar
 
-## Learnify(Udemy-clone)
- -- The primary objective could be to create a platform for online learning, similar to Udemy, where users can access a wide range of courses on various subjects.
+## Introduction
+
+1. User registration and authentication: Users can create accounts, log in
+2. Course discovery: Students can browse through available courses, search for specific topics, and enroll in courses of interest.
+3. Payment processing: The platform handles transactions for course purchases, with options for various payment methods.
 
 ## build using:
 HTML5 |
-CSS | bootstap | 
+CSS | bootstrap | 
 JavaScript 
 
+## Deployed Link of Learnify Website    
+--> https://hack-sculptress-6789-1.onrender.com/
+
+## Directory Structure
+hack-sculptress-6789/
+├─ backend/
+├─ frontend/
+│  ├─ ...
+
+## Features
+1. User Registration and Authentication
+2. Switching between login and signup
+3. Categories section
+4. Add to card and amount updation
+5. Payment process
+
 ## To start the project use commands: (After cloning the project)
-1. npm run frontend
-2. npm run server
+1. npm run install_things
+2. npm run frontend
+3. npm run server
 
-## Deployed Link of Learnify Website    https://hack-sculptress-6789-1.onrender.com/
-
-
-## some screenshorts from project
+## some Screenshots from project
 -- Landing Page
 
 ![landing page](https://github.com/ShubhKeshari/hack-sculptress-6789/assets/113028201/1b60d794-34f2-478f-a034-c95141050aa3)
@@ -48,7 +65,8 @@ JavaScript
 
 <hr>
 
--- checkout page
+-- Checkout page
 
 ![capture_20240226084216087](https://github.com/ShubhKeshari/hack-sculptress-6789/assets/113028201/4c245d86-1d87-4597-a6b3-91b0331799d4)
+
 
