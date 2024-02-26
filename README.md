@@ -16,7 +16,7 @@ Team members :-
 
 ## build using:
 HTML5 |
-CSS | bootstrap | 
+CSS | Bootstrap | 
 JavaScript 
 
 ## Deployed Link of Learnify Website    
