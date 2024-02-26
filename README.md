@@ -20,7 +20,7 @@ CSS | bootstrap |
 JavaScript 
 
 ## Deployed Link of Learnify Website    
---> https://hack-sculptress-6789-1.onrender.com/
+--> https://hack-sculptress-6789-1.onrender.com
 
 ## Directory Structure
 hack-sculptress-6789/
