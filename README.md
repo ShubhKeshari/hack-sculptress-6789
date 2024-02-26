@@ -24,8 +24,11 @@ JavaScript
 
 ## Directory Structure
 hack-sculptress-6789/
+<br>
 ├─ backend/
+<br>
 ├─ frontend/
+<br>
 │  ├─ ...
 
 ## Features
