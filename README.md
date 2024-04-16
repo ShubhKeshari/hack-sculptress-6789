@@ -8,6 +8,7 @@ Frontend
 
 ## Deplolyed App
 Frontend: https://hack-sculptress-6789-1.onrender.com
+
 Backend: https://hack-sculptress-6789.onrender.com
 
 ## Directory Structure
@@ -62,6 +63,8 @@ hack-sculptress-6789
 
 ## Video Walkthrough of the project
 A detailed walkthrough of all the features of our project can be found here:
+
+https://youtu.be/qKIydrXIHiM
 
 ## Features
 
