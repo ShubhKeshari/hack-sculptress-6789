@@ -115,7 +115,7 @@ async function generateCartCards() {
     const coursecount = document.getElementById("cartTotal");
     coursecount.innerHTML = cartlength;
     const noofcourse = document.getElementById("Daya-item");
-    noofcourse.innerHTML = `You have 200 ${cartlength} items in your cart`;
+    noofcourse.innerHTML = `You have ${cartlength} items in your cart`;
     const totalBill = document.getElementById("totalBill");
     totalBill.innerHTML = totalPrice;
   } catch (error) {

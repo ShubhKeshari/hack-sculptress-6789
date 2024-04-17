@@ -93,7 +93,7 @@ async function generateCourses() {
 
           <div class="d-flex justify-content-between mb-3">
             <h5 class="mb-0">${item.Title}</h5>
-            <h5 class="text-dark mb-0">$${item.CurrentPrice}</h5>
+            <h5 class="text-dark mb-0">₹${item.CurrentPrice}</h5>
           </div>
           <button type="button"   class="btn btn-primary addToCartBtn">Add To Cart</button>
 
@@ -109,16 +109,11 @@ async function generateCourses() {
         .querySelector(".addToCartBtn")
         .addEventListener("click", function () {
           // Call the post() function with the item parameter
-          //alert("Item added to cart")
+          alert("Item added to cart")
           post(item);
         });
     });
-    //   const coursecount=document.getElementById("cartTotal");
-    //   coursecount.innerHTML=cartlength;
-    //   const noofcourse=document.getElementById("Daya-item");
-    //   noofcourse.innerHTML=`You have ${cartlength} items in your cart`;
-    //   const totalBill=document.getElementById("totalBill");
-    //   totalBill.innerHTML=totalPrice;
+   
   } catch (error) {
     console.error("Error generating cart cards:", error);
   }
