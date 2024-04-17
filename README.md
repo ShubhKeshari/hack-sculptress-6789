@@ -79,6 +79,7 @@ https://youtu.be/qKIydrXIHiM
 Detailed instructions on how to install, configure, and get the project running. For BE/FS projects, guide the reviewer how to check mongodb schema etc.
 
 ```bash
+cd hack-sculptress-6789
 npm run install_things
 npm run frontend
 npm run server
