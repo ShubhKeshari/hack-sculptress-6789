@@ -49,6 +49,7 @@ function deletecourse(item) {
   })
     .then((response) => {
       if (response.ok) {
+        alert("Item deleted successfully");
         console.log("DELETE request successful!");
       } else {
         console.error("DELETE request failed:", response.status);
@@ -96,7 +97,7 @@ async function generateCartCards() {
                 <div style="width: 80px;">
                   <h5 class="mb-0">₹${item.CurrentPrice}</h5>
                 </div>
-                <div><i id="delet" class="fas fa-trash-alt"></i></div>
+                <div><i id="delet" class="fas fa-trash-alt" data-item-id="${item.id}"></i></div>
               </div>
             </div>
           </div>
@@ -106,11 +107,18 @@ async function generateCartCards() {
 
       // Append card to container
       cartContainer.appendChild(card);
-      cartContainer
-        .querySelector("#delet")
-        .addEventListener("click", function () {
-          deletecourse(item.id);
-        });
+    });
+    // cartContainer
+    //     .querySelector("#delet")
+    //     .addEventListener("click", function () {
+    //       console.log(item.id);
+    //       deletecourse(item.id);
+    //     });
+    const delButton = document.getElementById("delet");
+    delButton.addEventListener("click", function () {
+      const id = delButton.getAttribute("data-item-id");
+      console.log(id);
+     // deletecourse(id);
     });
     const coursecount = document.getElementById("cartTotal");
     coursecount.innerHTML = cartlength;
