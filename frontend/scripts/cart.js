@@ -25,7 +25,9 @@ function categoryPage() {
 // Function to fetch data from JSON Server
 async function fetchData() {
   try {
-    const response = await fetch(`https://hack-sculptress-6789.onrender.com/cart`);
+    const response = await fetch(
+      `https://hack-sculptress-6789.onrender.com/cart`
+    );
     if (!response.ok) {
       throw new Error("Network response was not ok.");
     }
@@ -92,11 +94,9 @@ async function generateCartCards() {
                   <h5 class="fw-normal mb-0">${item.Rating}</h5>
                 </div>
                 <div style="width: 80px;">
-                  <h5 class="mb-0">$${item.CurrentPrice}</h5>
+                  <h5 class="mb-0">₹${item.CurrentPrice}</h5>
                 </div>
                 <div><i id="delet" class="fas fa-trash-alt"></i></div>
-
-               
               </div>
             </div>
           </div>
@@ -115,7 +115,7 @@ async function generateCartCards() {
     const coursecount = document.getElementById("cartTotal");
     coursecount.innerHTML = cartlength;
     const noofcourse = document.getElementById("Daya-item");
-    noofcourse.innerHTML = `You have ${cartlength} items in your cart`;
+    noofcourse.innerHTML = `You have 200 ${cartlength} items in your cart`;
     const totalBill = document.getElementById("totalBill");
     totalBill.innerHTML = totalPrice;
   } catch (error) {
