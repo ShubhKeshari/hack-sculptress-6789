@@ -101,13 +101,13 @@ npm run server
 
 #### Category page
 
-![capture_20240226084133399](https://github.com/ShubhKeshari/hack-sculptress-6789/assets/113028201/77087186-ea5a-4ee2-8ea5-72191a6e51dc)
+![Screenshot 2024-04-17 153331](https://github.com/ShubhKeshari/hack-sculptress-6789/assets/114546254/db674006-150b-458b-a59a-ba9049e17146)
 
 <hr>
 
 #### Cart Page
 
-![capture_20240226084156527](https://github.com/ShubhKeshari/hack-sculptress-6789/assets/113028201/3776372d-9998-43e2-b456-f87935e06c75)
+![Screenshot 2024-04-17 153421](https://github.com/ShubhKeshari/hack-sculptress-6789/assets/114546254/4a26dfe0-878c-4edc-afc2-4f4f8ff36c1a)
 
 <hr>
 
