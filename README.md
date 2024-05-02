@@ -1,4 +1,5 @@
-# hack-sculptress-6789
+# Learnify App
+
 
 ## Introduction
 Learnify is a web application that aims to provide an educational platform similar to Udemy.com, allowing users to access and create online courses on various subjects. 
